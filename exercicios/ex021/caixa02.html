@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(252, 197, 205);
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #e93a3aad;
+            padding: 1px;
+            box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.514);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            color: black;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.527) ;
+        }
+
+        footer {
+            background-color: rgb(230, 123, 141);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: #fcc2c2ad;
+            padding: 4px;
+            
+        }
+
+        article > aside {
+            background-color:#f5a6a6ad;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+     <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+     </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p> politica esportes tecnologia</p>
+
+        </section>
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolores veniam ipsa impedit deleniti nobis ipsam optio quisquam porro reprehenderit? Possimus, sit obcaecati necessitatibus dolore at aliquid? Ut, in eligendi!</p>
+                <aside>
+                     <p>artigo escrito por José silva</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+
+    
+    </main>
+    <footer>
+        <p>desevolvido por julia Bitencourt</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
