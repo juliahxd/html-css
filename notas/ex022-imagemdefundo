@@ -1,0 +1,7 @@
+Imagem de fundo/ex022/fundo006
+
+background-size:
+auto > o navegador se vira
+fixar um tamanho com pixels ou porcetagem
+cover > cobrir tudo mesmo que corte
+contain > mostrar 100% da imagem
